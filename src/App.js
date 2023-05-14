@@ -1,17 +1,12 @@
 import './App.css';
 
-const name = "sapan";
-const number = "3";
+const name = "Sapan Sidhwani";
+var currentYear = new Date().getFullYear();
 function App() {
   return (
     <>
-      <h1>Hello {name}</h1>
-      <h2>Your Lucky Number is {Math.floor(Math.random() * 10) + 1}</h2>
-      <ul>
-        <li>Paneer</li>
-        <li>Noodles</li>
-        <li>Mushrooms</li>
-      </ul>
+      <h1>Created by {name}</h1>
+      <h1>Copyright {currentYear}</h1>
     </>
   );
 }
